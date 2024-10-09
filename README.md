@@ -26,7 +26,13 @@ $ sh create_env.sh
 
 Download AdaFace pre-trained model parameters from (https://github.com/mk-minchul/AdaFace).
 
-Direct link to the parameters: [pre-trained model](https://drive.google.com/file/d/1m757p4-tUU5xlSHLaO04sqnhvqankimN/view)
+Direct link to the parameters: [pre-trained model](https://drive.google.com/file/d/1m757p4-tUU5xlSHLaO04sqnhvqankimN/view).
+
+Generate two folders and put the weights to the "weights" folder.
+```bash
+$ mkdir output
+$ mkdir weights
+```
 
 ### Quick Usage
 Generate an output image
