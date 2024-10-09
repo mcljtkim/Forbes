@@ -1,0 +1,24 @@
+name: eccv2024
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - scikit-image=0.19.2=py38h51133e4_0
+  - cudatoolkit==11.6
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu116
+    - easydict==1.9
+    - einops==0.4.1
+    - fastrlock==0.8
+    - opencv-python==4.6.0.66
+    - timm==0.6.7
+    - colorama
+    - torch==1.13.1+cu116
+    - torchvision==0.14.1+cu116
+    - onnxruntime-gpu
+    - insightface
+prefix: /home/jtkim/anaconda3/envs/eccv2024

@@ -1,0 +1,1 @@
+conda env create -n Forbes --file environment.yaml
