@@ -85,7 +85,6 @@ def cal_accuracy(y_score, y_true):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--img_path', type=str, default=None)
     parser.add_argument('--adaface_ckpt', type=str, default='./weights/adaface_ir101_ms1mv2.ckpt')
     parser.add_argument('--dataset_root', type=str, default=None)
     parser.add_argument('--batch_size', type=int, default=16)
