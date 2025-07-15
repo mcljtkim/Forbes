@@ -40,6 +40,14 @@ Generate an output image
 $ python demo.py --img_path image_path/input_image.png
 ```
 
+### Evaluation
+If you want to evaluate benchmark datasets, please refer to the eval.py file
+```bash
+$ python eval.py dataset_root $/datasetroot
+```
+You can download the dataset from [Data Zoo](https://github.com/ZhaoJ9014/face.evoLVe).
+
+
 ### Citation
 Please cite the following paper if you feel this repository useful.
 ```bibtex
